@@ -17,7 +17,7 @@ namespace VariousTypes
             Console.WriteLine(strawberry);
             Console.WriteLine(banana);
 
-            //create and assign character variables
+            // Create and assign character variables
             char heart = '\u2764';
             char star = '\u2605';
             char dead = '\u2620';
@@ -26,6 +26,18 @@ namespace VariousTypes
             Console.WriteLine(heart);
             Console.WriteLine(star);
             Console.WriteLine(dead);
+
+
+            // Create and assign decimal numbers variables
+            decimal black = 1.6m;
+            float white = 12435.55f * 512425.24724646f; 
+            double brown = 1.88 * 3.5555;
+
+            // Prints decimal numbers variables
+            Console.WriteLine(black);
+            Console.WriteLine(white);
+            Console.WriteLine(brown);
+
 
         }
     }
