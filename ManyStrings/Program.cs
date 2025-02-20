@@ -6,6 +6,16 @@ namespace ManyStrings
     {
         private static void Main(string[] args)
         {
+            // Define necessary variables 
+            double xx = 1.23456;
+            int ii = 19;
+
+            //Print variables with many formats: decimal, percentage, hexadecimal and currency
+            Console.WriteLine($"{xx:f2}");
+            Console.WriteLine($"{xx:p1}");
+            Console.WriteLine($"{ii:x}");
+            Console.WriteLine($"{ii:c}");
+
             // Define strings
             string love = "Please \t give \t me \t a \t 10 \t ! \t ! \t !"; 
             string love2 = "Please, \t please \t give \t me \t a \t 10 \t \u2620 \t \u2620 \t \u2620 \t \u2620";
