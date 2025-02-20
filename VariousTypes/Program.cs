@@ -13,10 +13,20 @@ namespace VariousTypes
             long banana = 5L + 8L;
 
             // Prints the integrals number variables
-            Console.WriteLine(orange);
             Console.WriteLine(apple);
             Console.WriteLine(strawberry);
             Console.WriteLine(banana);
+
+            //create and assign character variables
+            char heart = '\u2764';
+            char star = '\u2605';
+            char dead = '\u2620';
+
+            // Prints the character variables
+            Console.WriteLine(heart);
+            Console.WriteLine(star);
+            Console.WriteLine(dead);
+
         }
     }
 }
