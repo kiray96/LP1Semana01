@@ -38,6 +38,14 @@ namespace VariousTypes
             Console.WriteLine(white);
             Console.WriteLine(brown);
 
+            // Create booleans 
+            bool flatearthers = true;
+            bool jesus = false;
+
+            // Print the booleans
+            Console.WriteLine(flatearthers);
+            Console.WriteLine(jesus);
+
 
         }
     }
