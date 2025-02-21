@@ -13,7 +13,7 @@ namespace AskForInput
 
             // Read the number of the player
             string number = Console.ReadLine();
-            // Ask the player to insert a integral namber
+            // Ask the player to insert a integral number
             int numberint = int.Parse(number);
 
 
@@ -22,7 +22,7 @@ namespace AskForInput
 
             // Read the number of the player
             string number2 = Console.ReadLine();
-            // Ask the player to insert a real namber
+            // Ask the player to insert a real number
             float numberreal = float.Parse(number2);
 
             //Sum of the two numbers requested by the player
