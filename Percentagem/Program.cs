@@ -49,10 +49,10 @@ namespace Percentagem
 
             //Print the result
             Console.WriteLine("Here we go:");
-            Console.WriteLine($" \t {numberreal:p2}");
-            Console.WriteLine($" \t {numberreal1:p2}");
-            Console.WriteLine($" \t {numberreal2:p2}");
-            Console.WriteLine($" \t {numberreal3:p2}");
+            Console.WriteLine($"{numberreal:p2}");
+            Console.WriteLine($"{numberreal1:p2}");
+            Console.WriteLine($"{numberreal2:p2}");
+            Console.WriteLine($"{numberreal3:p2}");
              
 
             
